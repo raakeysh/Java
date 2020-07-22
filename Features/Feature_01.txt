@@ -1,0 +1,15 @@
+Feature - Login
+Valid users should be logged int successfully.
+Scenario
+Valid user logs in and greeted with welcome message.
+Given I choose to login
+When I enter username and pasword
+Then I should be displayed with welcome message
+And I should land on to home page.
+
+Scenario 
+Invalid user tries to login to system
+Given I choose to login
+But I enter invalid username
+Then I should be told that user is invalid
+And I should be offered to create new account.
