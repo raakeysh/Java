@@ -9,6 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class SeleniumTest {
 		private static WebDriver driver = null;
 	public static void main(String[] args) {
+		
 		// Create a new instance of the Firefox driver
  
         driver = new FirefoxDriver();
