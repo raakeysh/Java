@@ -1,6 +1,6 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("SeleniumTest.feature");
 formatter.feature({
-  "id": "seleniumtest",
+  "id": "seleniumtes",
   "description": "",
   "name": "SeleniumTest",
   "keyword": "Feature",
